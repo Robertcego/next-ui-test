@@ -8,6 +8,7 @@ import Layout from '../../components/layout';
 function FirstPost() {
   const timeElapsed = Date.now();
   const today = new Date(timeElapsed);
+  console.log(today.toDateString());
   return (
     <Layout>
       <Head>
@@ -15,6 +16,9 @@ function FirstPost() {
       </Head>
       <h1>First Post</h1>
       <h2>Something goes here...</h2>
+      <footer>
+        Created <span>{today.toDateString()}</span>
+      </footer>
     </Layout>
   );
 }
