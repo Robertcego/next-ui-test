@@ -1,1 +1,5 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+## NextUI Component framework for NextJS
+
+### Profile  
+### Profile card
+### Dark mode
